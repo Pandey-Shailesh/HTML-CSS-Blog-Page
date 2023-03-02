@@ -3,7 +3,7 @@
     padding: 0;
 }
 .header{
-    background-color: #4e4c4c;
+    background-color: #7edbea;
     width: 100vw;
     height: 15vh;
     
@@ -19,7 +19,7 @@
 .logo-text{
     font-size: 40pt;
     margin-right: 700px;
-    color: white;
+    color: rgb(14, 14, 14);
     
 }
 .searchbox{
@@ -28,23 +28,23 @@ margin-right: 50px;
 
 .navbar{
     margin: 10px 200px 0 200px;
-    background-color: #2d2b2b;
+    background-color: #10a2b6;
     height: 5vh;
     display: flex;
     align-items: center;
     
 }
 a{
-    color: white;
+    color: rgb(14, 13, 13);
     text-decoration: none;
     margin: 0 50px 0 20px
 }
 .container{
     height: 80vh;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
 }
 .container1{
-    background-color: #2d2b2b;
+    background-color: #0fabc7;
     margin: 5px 200px 0 200px;
     height: 300px;
     display: flex;
@@ -59,9 +59,11 @@ a{
     
 }
 .read{
-    color: rgb(229, 161, 15);
+    color: rgb(34, 13, 94);
 }
-
+.text-in-container1{
+    padding: 15px;
+}
 .img-in-container1{
     height: 300px;
     width: 720px;
@@ -69,18 +71,19 @@ a{
 
 .container2{
     background-color: white;
-    margin: 10px 200px 5px 200px;
-    height: 20vh;
+    margin: 15px 200px 0px 200px;
+    height: 25vh;
     display: flex;
     justify-content: center;    
 }
 .color{
-    color:rgb(229, 161, 15) ;
+    color:rgb(34, 13, 94) ;
 }
 .gyb-img{
     
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 .g-img{
     border: 2px solid green;
@@ -100,33 +103,34 @@ justify-content: center;
 align-items:center;
 }
 .line{
-    margin: 0px 200px 0 200px;
+    margin: 0px 200px 5px 200px;
 }
 .container3{
-    background-color: rgb(13, 129, 137);
-    margin: 5px 200px 0 200px;
+    background-color: white;
+    margin: 01px 200px 0 200px;
     height: 25vh;
     display: flex;
 }
 .sub-footer{
     width: 33.33%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+hr{
+    margin: 5px 0 5px 0;
+}
+.wikipedia{
+    display: flex;
+}
+.wikipedia img{
+    border: 2px solid green;
+    margin: 20px;
+}
+#read{
+    margin-top: 120px;
+  
+}
 
 .footer{
-    background-color: #2d2b2b;
+    background-color: #3799ab;
     height: calc(5vh);
     color: white;
     display: flex;
